@@ -10,11 +10,11 @@
 	<div class="flex gap-5">
 		<div class="flex"></div>
 		<div
-			class="flex w-20 font-[RHD] font-bold leading-[22px] items-center tracking-widest uppercase text-white"
+			class="flex w-20 font-[RHD700] font-bold leading-[22px] items-center tracking-widest uppercase text-white"
 		>
 			Konstantin Chirkov
 		</div>
-		<div class="flex flex-wrap gap-0 pl-10">
+		<div class="flex flex-wrap pl-10">
 			<div class="flex w-full justify-between">
 				<a class="flex" href=""><img src={cw} alt="" /></a>
 				<a class="flex" href=""><img src={gh} alt="" /></a>
@@ -29,13 +29,13 @@
 	</div>
 	<div class="flex"></div>
 	<div class="flex items-center gap-8">
-		<div class="flex"><a class="font-[RHD] text-white uppercase">Me</a></div>
-		<div class="flex"><a class="font-[RHD] text-white uppercase">Road Map</a></div>
-		<div class="flex"><a class="font-[RHD] text-white uppercase">Skills</a></div>
-		<div class="flex"><a class="font-[RHD] text-white uppercase">Feedback</a></div>
-		<div class="flex bg-[red] rounded-[10px]">
-			<button class="p-2 font-[RHD] text-white uppercase">Contact Me</button>
+		<div class="flex"><a class="font-[RHD700] text-white uppercase">Me</a></div>
+		<div class="flex"><a class="font-[RHD700] text-white uppercase">Road Map</a></div>
+		<div class="flex"><a class="font-[RHD700] text-white uppercase">Skills</a></div>
+		<div class="flex"><a class="font-[RHD700] text-white uppercase">Feedback</a></div>
+		<div class="flex bg-[red] rounded-[30px]">
+			<button class="p-3 font-[RHD700] text-white uppercase">Contact Me</button>
 		</div>
-		<div class="flex font-[RHD] text-white uppercase"></div>
+		<div class="flex font-[RHD700] text-white uppercase"></div>
 	</div>
 </div>

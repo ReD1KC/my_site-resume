@@ -3,11 +3,21 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: 'Mulish';
-	src: url();
+	font-family: 'M900';
+	src: url('./assets/fonts/mulish/Mulish-Black.ttf');
 }
 
 @font-face {
-	font-family: 'RHD';
-	src: url('./assets/fonts/RedHatDisplay-ExtraBold.ttf');
+	font-family: 'M500';
+	src: url('./assets/fonts/mulish/Mulish-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'RHD700';
+	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: 'RHD600';
+	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-SemiBold.ttf');
 }
