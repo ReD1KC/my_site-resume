@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Mulish';
+	src: url();
+}
+
+@font-face {
+	font-family: 'RHD';
+	src: url('./assets/fonts/RedHatDisplay-ExtraBold.ttf');
+}
