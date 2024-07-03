@@ -21,3 +21,8 @@
 	font-family: 'RHD600';
 	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-SemiBold.ttf');
 }
+
+@font-face {
+	font-family: 'RHD400';
+	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf');
+}

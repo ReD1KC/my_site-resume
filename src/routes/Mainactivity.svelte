@@ -11,21 +11,21 @@
 			<div
 				class="flex-col mb-10 shadow-[9px_9px_40px_13px_rgba(13,12,12,0.4),-6px_-6px_40px_5px_rgba(245,249,255,0.4)] rounded-3xl inset-[0%]"
 			>
-				<h1 class="flex text-white font-[RHD600] p-5">Frontend-developer</h1>
+				<h1 class="flex text-white font-[RHD400] p-5 text-[32px]">Frontend-developer</h1>
 				<ul class="flex-col list-disc pl-12">
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
@@ -34,21 +34,21 @@
 			<div
 				class="flex-col shadow-[9px_9px_40px_13px_rgba(13,12,12,0.4),-6px_-6px_40px_5px_rgba(245,249,255,0.4)] rounded-3xl inset-[0%]"
 			>
-				<h1 class="flex text-white font-[RHD600] p-5">Frontend-developer</h1>
+				<h1 class="flex text-white font-[RHD400] p-5 text-[32px]">Financial Analytic</h1>
 				<ul class="flex-col list-disc pl-12">
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
@@ -59,21 +59,21 @@
 			<div
 				class="flex-col mb-10 shadow-[9px_9px_40px_13px_rgba(13,12,12,0.4),-6px_-6px_40px_5px_rgba(245,249,255,0.4)] rounded-3xl inset-[0%]"
 			>
-				<h1 class="flex text-white font-[RHD600] p-5">Frontend-developer</h1>
+				<h1 class="flex text-white font-[RHD400] p-5 text-[32px]">Backend-developer</h1>
 				<ul class="flex-col list-disc pl-12">
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
@@ -82,21 +82,21 @@
 			<div
 				class="flex-col shadow-[9px_9px_40px_13px_rgba(13,12,12,0.4),-6px_-6px_40px_5px_rgba(245,249,255,0.4)] rounded-3xl inset-[0%]"
 			>
-				<h1 class="flex text-white font-[RHD600] p-5">Frontend-developer</h1>
+				<h1 class="flex text-white font-[RHD400] p-5 text-[32px]">Managment</h1>
 				<ul class="flex-col list-disc pl-12">
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
-					<li class="text-white pb-4">
+					<li class="text-white pb-4 font-[M500] text-[18px]">
 						experienced in using cutting-age programming languages such as C Sharp, React, React
 						Native, Rust
 					</li>
