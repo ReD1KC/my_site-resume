@@ -16,14 +16,14 @@
 		</div>
 		<div class="flex flex-wrap pl-20">
 			<div class="flex w-full justify-between">
-				<a class="flex" href=""><img src={cw} alt="" /></a>
-				<a class="flex" href=""><img src={gh} alt="" /></a>
-				<a class="flex" href=""><img src={wt} alt="" /></a>
+				<a class="flex" href="https://www.codewars.com/users/ReD1KC"><img src={cw} alt="" /></a>
+				<a class="flex" href="https://github.com/ReD1KC"><img src={gh} alt="" /></a>
 			</div>
 			<div class="flex w-full justify-between">
-				<a class="flex" href=""><img src={em} alt="" /></a>
-				<a class="flex" href=""><img src={lk} alt="" /></a>
-				<a class="flex" href=""><img src={lk} alt="" /></a>
+				<a class="flex" href="mailto:tchirkokwork@gmail.com"><img src={em} alt="" /></a>
+				<a class="flex" href="https://www.linkedin.com/in/konstantin-chirkov-7554432b3/"
+					><img src={lk} alt="" /></a
+				>
 			</div>
 		</div>
 	</div>
@@ -38,8 +38,8 @@
 		<div class="flex">
 			<a class="font-[RHD700] text-white uppercase" href="/Feedback">Feedback</a>
 		</div>
-		<div class="flex bg-[red] rounded-[30px]">
-			<button class="p-4 font-[RHD700] text-white uppercase">Contact Me</button>
+		<div class="flex bg-[#ED455D] rounded-[30px]">
+			<button class="pt-3 pb-3 pr-5 pl-5 font-[RHD700] text-white uppercase">Contact Me</button>
 		</div>
 		<div class="flex font-[RHD700] text-white uppercase"></div>
 	</div>
