@@ -13,6 +13,11 @@
 }
 
 @font-face {
+	font-family: 'RHD800';
+	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-ExtraBold.ttf');
+}
+
+@font-face {
 	font-family: 'RHD700';
 	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-ExtraBold.ttf');
 }
