@@ -7,14 +7,14 @@
 	let selectedColumn = 'IT';
 </script>
 
-<div class="flex-col">
+<div class="flex flex-col">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
-		<div class="flex-col items-center justify-center">
+		<div class="flex flex-col items-center justify-center">
 			<h1 class="flex text-white font-[RHD600]">Skills</h1>
 		</div>
 	</div>
 	<div
-		class="flex-col shadow-[-4px_-4px_104px_2px_rgba(172,172,172,0.2),9px_9px_35px_8px_rgba(0,0,0,0.25)] rounded-3xl"
+		class="flex flex-col shadow-[-4px_-4px_104px_2px_rgba(172,172,172,0.2),9px_9px_35px_8px_rgba(0,0,0,0.25)] rounded-3xl"
 	>
 		<div class="flex justify-between w-full">
 			<div class="grid grid-cols-4 gap-16 p-8 ustify-between w-full">
@@ -54,3 +54,13 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	button:active {
+		background-color: #222427;
+		box-shadow:
+			inset -9px -9px 48px rgba(101, 107, 117, 0.2),
+			inset 9px 9px 24px 8px rgba(1, 5, 11, 0.4);
+		border-radius: 24px;
+	}
+</style>

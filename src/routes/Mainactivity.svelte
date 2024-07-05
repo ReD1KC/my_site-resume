@@ -2,14 +2,14 @@
 	import SkillCard from './small_components/SkillCard.svelte';
 </script>
 
-<div class="flex-col gap-y-32">
+<div class="flex flex-col gap-y-32">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
 		<h1 class="flex text-white font-[RHD600]">
 			Main <span class="text-[orange] pl-3">Activity</span>
 		</h1>
 	</div>
 	<div class="flex gap-24">
-		<div class="flex-col w-1/2">
+		<div class="flex flex-col w-1/2">
 			<SkillCard
 				title="Frontend-developer"
 				skills={[
@@ -29,7 +29,7 @@
 				]}
 			/>
 		</div>
-		<div class="flex-col w-1/2">
+		<div class="flex flex-col w-1/2">
 			<SkillCard
 				title="Backend-developer"
 				skills={[

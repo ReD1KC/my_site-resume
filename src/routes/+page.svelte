@@ -1,4 +1,5 @@
 <script>
+	import ContactMe from './Contact_me.svelte';
 	import Feedback from './Feedback.svelte';
 	import Mainactivity from './Mainactivity.svelte';
 	import Me from './Me.svelte';
@@ -12,4 +13,5 @@
 	<WorkEducation />
 	<Skills />
 	<Feedback />
+	<ContactMe />
 </main>
