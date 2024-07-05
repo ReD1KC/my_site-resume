@@ -8,10 +8,10 @@
 </script>
 
 <main class="flex flex-col bg-[#222427] h-full w-full pr-5 pl-5 gap-y-44">
-	<Me />
-	<Mainactivity />
-	<WorkEducation />
-	<Skills />
-	<Feedback />
-	<ContactMe />
+	<div id="Me"><Me /></div>
+	<div id="Mainactivity"><Mainactivity /></div>
+	<div id="WorkEducation"><WorkEducation /></div>
+	<div id="Skills"><Skills /></div>
+	<div id="Feedback"><Feedback /></div>
+	<div id="ContactMe "><ContactMe /></div>
 </main>

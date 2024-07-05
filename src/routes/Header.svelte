@@ -14,12 +14,12 @@
 		>
 			Konstantin Chirkov
 		</div>
-		<div class="flex flex-wrap pl-20">
-			<div class="flex w-full justify-between">
+		<div class="flex w-56 pl-20 gap-2">
+			<div class="flex gap-2">
 				<a class="flex" href="https://www.codewars.com/users/ReD1KC"><img src={cw} alt="" /></a>
 				<a class="flex" href="https://github.com/ReD1KC"><img src={gh} alt="" /></a>
 			</div>
-			<div class="flex w-full justify-between">
+			<div class="flex gap-2">
 				<a class="flex" href="mailto:tchirkokwork@gmail.com"><img src={em} alt="" /></a>
 				<a class="flex" href="https://www.linkedin.com/in/konstantin-chirkov-7554432b3/"
 					><img src={lk} alt="" /></a
@@ -29,14 +29,16 @@
 	</div>
 	<div class="flex"></div>
 	<div class="flex items-center gap-8">
-		<div class="flex"><a class="font-[RHD700] text-white uppercase" href="/me">Me</a></div>
+		<div class="flex"><a class="font-[RHD700] text-white uppercase" href="#Me">Me</a></div>
 		<div class="flex">
-			<a class="font-[RHD700] text-white uppercase" href="/MainActivity">Main Activity</a>
+			<a class="font-[RHD700] text-white uppercase" href="#Mainactivity">Main Activity</a>
 		</div>
-		<div class="flex"><a class="font-[RHD700] text-white uppercase" href="/RM">Road Map</a></div>
-		<div class="flex"><a class="font-[RHD700] text-white uppercase" href="/Skills">Skills</a></div>
 		<div class="flex">
-			<a class="font-[RHD700] text-white uppercase" href="/Feedback">Feedback</a>
+			<a class="font-[RHD700] text-white uppercase" href="#WorkEducation">Road Map</a>
+		</div>
+		<div class="flex"><a class="font-[RHD700] text-white uppercase" href="#Skills">Skills</a></div>
+		<div class="flex">
+			<a class="font-[RHD700] text-white uppercase" href="#Feedback">Feedback</a>
 		</div>
 		<div class="flex bg-[#ED455D] rounded-[30px]">
 			<button class="pt-3 pb-3 pr-5 pl-5 font-[RHD700] text-white uppercase">Contact Me</button>
