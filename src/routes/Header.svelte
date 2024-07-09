@@ -1,7 +1,6 @@
 <script>
 	import cw from '../assets/images/codewars.svg';
 	import gh from '../assets/images/github.svg';
-	import wt from '../assets/images/whatsapp.svg';
 	import em from '../assets/images/email.svg';
 	import lk from '../assets/images/linkedin.svg';
 </script>

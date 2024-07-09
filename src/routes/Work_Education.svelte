@@ -3,7 +3,7 @@
 	import Line from '../assets/images/line.svg';
 </script>
 
-<div class="flex flex-col">
+<div class="flex flex-col gap-y-24">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
 		<div class="flex flex-col items-center justify-center">
 			<h1 class="flex text-white font-[RHD600]">Work and Educational</h1>

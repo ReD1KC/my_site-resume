@@ -1,6 +1,6 @@
 <script>
-	import Recomendations from './small_components/Recomendations.svelte';
-	import Wps from './small_components/WPS.svelte';
+	import Recomendations from './small_components/Feedback_components/Recomendations.svelte';
+	import Wps from './small_components/Feedback_components/WPS.svelte';
 
 	let selectedColumn = 'WPS';
 </script>
@@ -35,6 +35,7 @@
 		</div>
 	</div>
 </div>
+a
 
 <style>
 	button:active {
