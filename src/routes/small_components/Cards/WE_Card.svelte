@@ -14,3 +14,8 @@
 	</h1>
 	<h1 class="flex items-center justify-center text-white font-[M600] text-[14px]">{company}</h1>
 </div>
+
+<style>
+	button:hover {
+	}
+</style>

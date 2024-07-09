@@ -1,8 +1,8 @@
 <script>
-	import FinanceColumn from './small_components/Finance_column.svelte';
-	import ItColumn from './small_components/It_column.svelte';
-	import ManagmentColumn from './small_components/Managment_column.svelte';
-	import SoftColumn from './small_components/Soft_column.svelte';
+	import FinanceColumn from './small_components/Skill_columns/Finance_column.svelte';
+	import ItColumn from './small_components/Skill_columns/It_column.svelte';
+	import ManagmentColumn from './small_components/Skill_columns/Managment_column.svelte';
+	import SoftColumn from './small_components/Skill_columns/Soft_column.svelte';
 
 	let selectedColumn = 'IT';
 </script>

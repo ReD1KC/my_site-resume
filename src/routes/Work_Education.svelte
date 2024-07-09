@@ -1,5 +1,5 @@
 <script>
-	import WeCard from './small_components/WE_Card.svelte';
+	import WeCard from './small_components/Cards/WE_Card.svelte';
 	import Line from '../assets/images/line.svg';
 </script>
 

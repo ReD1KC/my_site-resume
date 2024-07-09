@@ -1,5 +1,5 @@
 <script>
-	import SkillCard from './small_components/SkillCard.svelte';
+	import SkillCard from './small_components/Cards/SkillCard.svelte';
 </script>
 
 <div class="flex flex-col gap-y-32">
@@ -51,4 +51,3 @@
 		</div>
 	</div>
 </div>
-
