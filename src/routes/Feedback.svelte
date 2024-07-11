@@ -1,11 +1,12 @@
 <script>
+	import Portfolio from './small_components/Feedback_components/Portfolio.svelte';
 	import Recomendations from './small_components/Feedback_components/Recomendations.svelte';
 	import Wps from './small_components/Feedback_components/WPS.svelte';
 
 	let selectedColumn = 'WPS';
 </script>
 
-<div class="flex flex-col">
+<div class="flex flex-col gap-y-24">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
 		<div class="flex flex-col items-center justify-center">
 			<h1 class="flex text-white font-[RHD600]">Feedback</h1>
@@ -24,13 +25,19 @@
 					class="flex-1 font-[RHD400] text-[32px] text-[orange] pt-5 pb-5 pr-16 pl-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
 					on:click={() => (selectedColumn = 'Recomend')}>Recommendation & Certificates</button
 				>
+				<button
+					class="flex-1 font-[RHD400] text-[32px] text-[orange] pt-5 pb-5 pr-16 pl-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					on:click={() => (selectedColumn = 'Portfolio')}>Portfolio</button
+				>
 			</div>
 		</div>
 		<div class="flex items-center justify-center pb-10">
 			{#if selectedColumn === 'WPS'}
 				<Wps />
-			{:else}
+			{:else if selectedColumn === 'Recomend'}
 				<Recomendations />
+			{:else}
+				<Portfolio />
 			{/if}
 		</div>
 	</div>

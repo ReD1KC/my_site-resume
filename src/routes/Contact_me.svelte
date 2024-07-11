@@ -18,7 +18,7 @@
 		></div>
 		<div class="flex w-1/3">
 			<div class="flex flex-col">
-				<img src={me} alt="" class="" />
+				<!-- <img src={me} alt="" class="" /> -->
 				<div class="flex items-center justify-center pt-10 text-white text-[18px] font-[M500]">
 					<h1>You can find me also on these platforms:</h1>
 				</div>

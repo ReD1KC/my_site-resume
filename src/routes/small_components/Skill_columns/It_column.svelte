@@ -8,6 +8,9 @@
 	<button class="flex text-white font-[RHD800] text-[18px]">Git / GitHub </button>
 	<button class="flex text-white font-[RHD800] text-[18px]">Database Interfaces</button>
 	<button class="flex text-white font-[RHD800] text-[18px]">SQL / NoSQL</button>
+	<button class="flex text-white font-[RHD800] text-[18px]">Rust</button>
+	<button class="flex text-white font-[RHD800] text-[18px]">Server Tools</button>
+	<button class="flex text-white font-[RHD800] text-[18px]">Mobile Development</button>
 </div>
 
 <style>

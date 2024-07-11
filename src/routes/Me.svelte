@@ -13,6 +13,6 @@
 			<div class=" font-[M900]">Hello! My name is Konstantin Chirkov.</div>
 			<div class="leading-[170.2%] pt-5 font-[M500]">{mainText}</div>
 		</div>
-		<div class="flex text-white h-[500px] pr-32 pl-10"><img src={me} alt="" /></div>
+		<!-- <div class="flex text-white h-[200px] pl-10"><img src={me} alt="" /></div> -->
 	</div>
 </div>
