@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 	export let file;
-	export let text;
+	export let text: string;
 </script>
 
 <div class="flex gap-10 pl-10">

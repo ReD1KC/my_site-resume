@@ -22,7 +22,7 @@
 				<div class="flex items-center justify-center pt-10 text-white text-[18px] font-[M500]">
 					<h1>You can find me also on these platforms:</h1>
 				</div>
-				<div class="flex justify-between pt-10 bg w-full pr-24 pl-24">
+				<div class="flex justify-between pt-10 bg w-full px-24">
 					<a class="flex" href="https://www.codewars.com/users/ReD1KC"><img src={wt} alt="" /></a>
 					<a class="flex" href="https://github.com/ReD1KC"><img src={gh} alt="" /></a>
 					<a class="flex" href="mailto:tchirkokwork@gmail.com"><img src={em} alt="" /></a>

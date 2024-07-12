@@ -1,6 +1,6 @@
-<script>
-	export let title;
-	export let skills;
+<script lang="ts">
+	export let title: string;
+	export let skills: string[];
 </script>
 
 <div
@@ -13,9 +13,7 @@
 		{/each}
 	</ul>
 	<div class="flex pl-5 pb-6">
-		<button class="border-[3px] rounded-[20px] pt-2 pb-2 pr-4 pl-4 text-white"
-			>More information</button
-		>
+		<button class="border-[3px] rounded-[20px] py-2 px-4 text-white">More information</button>
 	</div>
 </div>
 

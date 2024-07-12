@@ -18,15 +18,15 @@
 		<div class="flex justify-between w-full">
 			<div class="grid grid-cols-2 gap-16 p-8 justify-between w-full">
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-white pt-5 pb-5 pr-16 pl-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-[32px] text-white py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
 					on:click={() => (selectedColumn = 'WPS')}>What People Say</button
 				>
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-[orange] pt-5 pb-5 pr-16 pl-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-[32px] text-[orange] py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
 					on:click={() => (selectedColumn = 'Recomend')}>Recommendation & Certificates</button
 				>
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-[orange] pt-5 pb-5 pr-16 pl-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-[32px] text-[orange] py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
 					on:click={() => (selectedColumn = 'Portfolio')}>Portfolio</button
 				>
 			</div>

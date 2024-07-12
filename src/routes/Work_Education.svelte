@@ -85,7 +85,7 @@
 								year="Sept. 2020 - Feb. 2022"
 								whom="Special Education in the Sphere of Military Economics and Weapon Systems"
 								company="46 Central Scientific Research Institute of the 'Ministry of Defense of Russia', Moscow"
-								width={898}
+								width={893}
 							/>
 						</div>
 					</div>

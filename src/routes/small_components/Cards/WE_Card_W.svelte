@@ -1,8 +1,8 @@
-<script>
-	export let year;
-	export let whom;
-	export let company;
-	export let width;
+<script lang="ts">
+	export let year: string;
+	export let whom: string;
+	export let company: string;
+	export let width: number;
 </script>
 
 <div class="flex-col border-2 rounded-[9px] w-[516px] border-orange" style={`width: ${width}px`}>

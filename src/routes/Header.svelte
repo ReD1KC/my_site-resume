@@ -5,7 +5,7 @@
 	import lk from '../assets/images/linkedin.svg';
 </script>
 
-<div class="flex bg-[#847979] w-full h-20 left-0 top-0 fixed justify-between">
+<div class="flex bg-[#847979] w-full h-20 left-0 top-0 fixed justify-between z-10">
 	<div class="flex gap-5">
 		<div class="flex"></div>
 		<div
@@ -40,7 +40,7 @@
 			<a class="font-[RHD700] text-white uppercase" href="#Feedback">Feedback</a>
 		</div>
 		<div class="flex bg-[#ED455D] rounded-[30px]">
-			<button class="pt-3 pb-3 pr-5 pl-5 font-[RHD700] text-white uppercase">Contact Me</button>
+			<button class="py-3 px-5 font-[RHD700] text-white uppercase">Contact Me</button>
 		</div>
 		<div class="flex font-[RHD700] text-white uppercase"></div>
 	</div>

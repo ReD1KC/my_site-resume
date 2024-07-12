@@ -1,6 +1,6 @@
-<script>
-	export let text;
-	export let name;
+<script lang="ts">
+	export let text: string;
+	export let name: string;
 </script>
 
 <div class="flex flex-col gap-y-5 border-2 rounded-[15px]">

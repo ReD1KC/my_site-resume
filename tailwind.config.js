@@ -6,6 +6,11 @@ export default {
       colors: {
         orange: "#FA8E41",
         blue: "#48B3F2",
+      },
+      fontFamily: {
+          'RHD600': {
+            src: ['./assets/fonts/RedHatDisplay/RedHatDisplay-SemiBold.ttf']
+          }
       }
     }
   },
