@@ -2,6 +2,7 @@
 	import FinanceColumn from './small_components/Skill_columns/Finance_column.svelte';
 	import ItColumn from './small_components/Skill_columns/It_column.svelte';
 	import ManagmentColumn from './small_components/Skill_columns/Managment_column.svelte';
+	import ItColumnSpace from './small_components/Skill_columns/Skill_spaces/Space.svelte';
 	import SoftColumn from './small_components/Skill_columns/Soft_column.svelte';
 
 	let selectedColumn = 'IT';

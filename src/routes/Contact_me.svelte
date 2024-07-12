@@ -9,7 +9,9 @@
 <div class="flex flex-col gap-y-24">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
 		<div class="flex flex-col items-center justify-center">
-			<h1 class="flex text-white font-[RHD600]">Contact Me</h1>
+			<h1 class="flex text-white font-[RHD600]">
+				Contact <snap class="text-orange pl-3">Me</snap>
+			</h1>
 		</div>
 	</div>
 	<div class="flex">
