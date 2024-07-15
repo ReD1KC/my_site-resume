@@ -1,6 +1,5 @@
 <script>
-	import WeCard from './small_components/Cards/WE_Card_W.svelte';
-	import WeCardE from './small_components/Cards/WE_Card_E.svelte';
+	import WeCard from './small_components/Cards/WE_Card.svelte';
 	import Line from '../assets/images/line.svg';
 </script>
 
@@ -56,7 +55,7 @@
 				</div>
 				<div class="flex flex-col gap-y-1 relative">
 					<div class="flex relative">
-						<WeCardE
+						<WeCard
 							year="Sep. 2012 - Jun. 2018"
 							whom="Professional English"
 							company="LLC ''Stankevich's House'', Moscow"
@@ -64,7 +63,7 @@
 						/>
 					</div>
 					<div class="flex relative items-center justify-center">
-						<WeCardE
+						<WeCard
 							year="Sept. 2019 - June 2021"
 							whom="Specialist in the Field of Economics and Financial Analytics"
 							company="National Research University ''Higher School of Economics'', Moscow"
@@ -73,7 +72,7 @@
 					</div>
 					<div class="flex gap-5">
 						<div class="flex relative">
-							<WeCardE
+							<WeCard
 								year="Sept. 2018 - June 2020"
 								whom="Specialist in the Field of Social Psychology"
 								company="PsychFac ''Moscow State University'' named M. V. Lomonosov, Moscow"
@@ -81,7 +80,7 @@
 							/>
 						</div>
 						<div class="flex relative items-end justify-end">
-							<WeCardE
+							<WeCard
 								year="Sept. 2020 - Feb. 2022"
 								whom="Special Education in the Sphere of Military Economics and Weapon Systems"
 								company="46 Central Scientific Research Institute of the 'Ministry of Defense of Russia', Moscow"
@@ -90,7 +89,7 @@
 						</div>
 					</div>
 					<div class="flex relative">
-						<WeCardE
+						<WeCard
 							year=" Sept. 2018 - Feb. 2022"
 							whom="Bachelor's Degree in Innovation Technologies and Management"
 							company="Russian Technological University 'MIREA', Moscow"
