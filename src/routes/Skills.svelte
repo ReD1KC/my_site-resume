@@ -14,25 +14,23 @@
 			<h1 class="flex text-white font-[RHD600]">Skills</h1>
 		</div>
 	</div>
-	<div
-		class="flex flex-col shadow-[-4px_-4px_104px_2px_rgba(172,172,172,0.2),9px_9px_35px_8px_rgba(0,0,0,0.25)] rounded-3xl"
-	>
+	<div class="flex flex-col shadow-blockShadow rounded-3xl">
 		<div class="flex justify-between w-full">
 			<div class="grid grid-cols-4 gap-16 p-8 ustify-between w-full">
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-white py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
 					on:click={() => (selectedColumn = 'IT')}>IT</button
 				>
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-white py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
 					on:click={() => (selectedColumn = 'Finance')}>Finance</button
 				>
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-white py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
 					on:click={() => (selectedColumn = 'Managment')}>Managment</button
 				>
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-white py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
 					on:click={() => (selectedColumn = 'Soft skills')}>Soft skills</button
 				>
 			</div>
@@ -50,7 +48,7 @@
 				{/if}
 			</div>
 			<div
-				class="flex w-3/4 border shadow-[inset_8px_4px_44px_rgba(0,0,0,0.25)] rounded-2xl border-solid border-[#343232]"
+				class="flex w-3/4 border shadow-skillField rounded-2xl border-solid border-[#343232]"
 			></div>
 		</div>
 	</div>

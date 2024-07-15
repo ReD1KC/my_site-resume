@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex flex-col gap-y-24">
-	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
+	<div class="flex items-center justify-center text-5xl leading-10 text-center text-white">
 		<div class="flex flex-col items-center justify-center">
 			<h1 class="flex text-white font-[RHD600]">
 				Contact <snap class="text-orange pl-3">Me</snap>
@@ -15,13 +15,11 @@
 		</div>
 	</div>
 	<div class="flex">
-		<div
-			class="flex w-2/3 shadow-[-9px_-9px_73px_-3px_rgba(147,147,147,0.45),9px_9px_49px_5px_rgba(0,0,0,0.45)] rounded-3xl bg-[#454141]"
-		></div>
+		<div class="flex w-2/3 shadow-contactMe rounded-3xl bg-[#454141]"></div>
 		<div class="flex w-1/3">
 			<div class="flex flex-col">
 				<!-- <img src={me} alt="" class="" /> -->
-				<div class="flex items-center justify-center pt-10 text-white text-[18px] font-[M500]">
+				<div class="flex items-center justify-center pt-10 text-white text-lg font-[M500]">
 					<h1>You can find me also on these platforms:</h1>
 				</div>
 				<div class="flex justify-between pt-10 bg w-full px-24">

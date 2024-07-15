@@ -12,21 +12,19 @@
 			<h1 class="flex text-white font-[RHD600]">Feedback</h1>
 		</div>
 	</div>
-	<div
-		class="flex flex-col shadow-[-4px_-4px_104px_2px_rgba(172,172,172,0.2),9px_9px_35px_8px_rgba(0,0,0,0.25)] rounded-3xl"
-	>
+	<div class="flex flex-col shadow-blockShadow rounded-3xl">
 		<div class="flex justify-between w-full">
 			<div class="grid grid-cols-2 gap-16 p-8 justify-between w-full">
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-white py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
 					on:click={() => (selectedColumn = 'WPS')}>What People Say</button
 				>
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-[orange] py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-3xl text-[orange] py-5 px-16 shadow-bigButton rounded-3xl"
 					on:click={() => (selectedColumn = 'Recomend')}>Recommendation & Certificates</button
 				>
 				<button
-					class="flex-1 font-[RHD400] text-[32px] text-[orange] py-5 px-16 shadow-[-9px_-9px_20px_rgba(101,107,117,0.2),9px_9px_24px_8px_rgba(1,5,11,0.25)] rounded-3xl"
+					class="flex-1 font-[RHD400] text-3xl text-[orange] py-5 px-16 shadow-bigButton rounded-3xl"
 					on:click={() => (selectedColumn = 'Portfolio')}>Portfolio</button
 				>
 			</div>

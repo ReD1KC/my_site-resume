@@ -9,7 +9,7 @@
 	<div class="flex gap-5">
 		<div class="flex"></div>
 		<div
-			class="flex w-20 font-[RHD700] text-[20px] font-bold leading-[22px] items-center tracking-widest uppercase text-white"
+			class="flex w-20 font-[RHD700] text-xl font-bold leading-[22px] items-center tracking-widest uppercase text-white"
 		>
 			Konstantin Chirkov
 		</div>
