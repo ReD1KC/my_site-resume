@@ -1,6 +1,7 @@
-<script>
+<script lang="ts">
 	import WeCard from './small_components/Cards/WE_Card.svelte';
 	import Line from '../assets/images/line.svg';
+	import Line2 from '../assets/images/line2.svg';
 </script>
 
 <div class="flex flex-col gap-y-24">
@@ -14,7 +15,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col overflow-x-auto">
-		<div class="flex">
+		<div class="flex flex-col gap-y-10">
 			<div class="w-full">
 				<div class="flex flex-col gap-y-1 relative">
 					<div class="flex relative">
@@ -124,5 +125,18 @@
 
 	.flex.flex-col.overflow-x-auto::-webkit-scrollbar-track {
 		background-color: orange; /* adjust the background color of the scrollbar track */
+	}
+	/* your existing styles here */
+
+	.absolute {
+		position: absolute;
+	}
+
+	.right-0 {
+		right: 0;
+	}
+
+	.transform {
+		transform: translateY(-50%);
 	}
 </style>

@@ -1,8 +1,9 @@
 <script>
-	import cw from '../assets/images/codewars.svg';
-	import gh from '../assets/images/github.svg';
-	import em from '../assets/images/email.svg';
-	import lk from '../assets/images/linkedin.svg';
+	import Fa from 'svelte-fa';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
+	import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+	import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+	import { faTelegram } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <div class="flex bg-[#847979] w-full h-20 left-0 top-0 fixed justify-between z-10">
@@ -13,15 +14,15 @@
 		>
 			Konstantin Chirkov
 		</div>
-		<div class="flex w-56 pl-20 gap-2">
+		<div class="flex flex-wrap pt-5 pl-16 gap-2">
 			<div class="flex gap-2">
-				<a class="flex" href="https://www.codewars.com/users/ReD1KC"><img src={cw} alt="" /></a>
-				<a class="flex" href="https://github.com/ReD1KC"><img src={gh} alt="" /></a>
+				<a class="flex" href="https://t.me/Sammu1L"><Fa icon={faTelegram} /></a>
+				<a class="flex" href="https://github.com/ReD1KC"><Fa icon={faGithub} /></a>
 			</div>
 			<div class="flex gap-2">
-				<a class="flex" href="mailto:tchirkokwork@gmail.com"><img src={em} alt="" /></a>
+				<a class="flex" href="mailto:tchirkokwork@gmail.com"><Fa icon={faEnvelope} /></a>
 				<a class="flex" href="https://www.linkedin.com/in/konstantin-chirkov-7554432b3/"
-					><img src={lk} alt="" /></a
+					><Fa icon={faLinkedin} /></a
 				>
 			</div>
 		</div>
