@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	export let file;
 	export let text: string;
 </script>
@@ -8,4 +8,4 @@
 	<div class="flex text-white fony-[M500] text-xs items-end justify-end p-5">- {text}</div>
 </div>
 
-<style></style>
+<style></style> -->

@@ -39,7 +39,7 @@
 		<div class="flex">
 			<a class="font-[RHD700] text-white uppercase" href="#Feedback">Feedback</a>
 		</div>
-		<div class="flex bg-[#ED455D] rounded-[30px]">
+		<div class="flex bg-orange rounded-[30px]">
 			<button class="py-3 px-5 font-[RHD700] text-white uppercase">Contact Me</button>
 		</div>
 		<div class="flex font-[RHD700] text-white uppercase"></div>

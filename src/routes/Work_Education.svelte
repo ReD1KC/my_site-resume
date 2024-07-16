@@ -23,6 +23,7 @@
 							whom="Sales Manager"
 							company="VTB PJSC, Moscow"
 							width={700}
+							borderColor="#FA8E41"
 						/>
 					</div>
 					<div class="flex relative items-center justify-center right-1">
@@ -31,6 +32,7 @@
 							whom="System administrator"
 							company="LLC ''VILDIS Technologies'', Moscow"
 							width={900}
+							borderColor="#FA8E41"
 						/>
 					</div>
 					<div class="flex relative items-end justify-end right-12">
@@ -39,6 +41,7 @@
 							whom="Deputy of Information Security"
 							company="LLC ''VILDIS Technologies'', Moscow"
 							width={452}
+							borderColor="#FA8E41"
 						/>
 					</div>
 					<div class="flex relative items-end justify-end">
@@ -47,6 +50,7 @@
 							whom="Founder and, part-time, financial director"
 							company="themCodes OÜ, Tallinn"
 							width={500}
+							borderColor="#FA8E41"
 						/>
 					</div>
 				</div>
@@ -60,6 +64,7 @@
 							whom="Professional English"
 							company="LLC ''Stankevich's House'', Moscow"
 							width={300}
+							borderColor="#48B3F2"
 						/>
 					</div>
 					<div class="flex relative items-center justify-center">
@@ -68,6 +73,7 @@
 							whom="Specialist in the Field of Economics and Financial Analytics"
 							company="National Research University ''Higher School of Economics'', Moscow"
 							width={950}
+							borderColor="#48B3F2"
 						/>
 					</div>
 					<div class="flex gap-5">
@@ -77,6 +83,7 @@
 								whom="Specialist in the Field of Social Psychology"
 								company="PsychFac ''Moscow State University'' named M. V. Lomonosov, Moscow"
 								width={950}
+								borderColor="#48B3F2"
 							/>
 						</div>
 						<div class="flex relative items-end justify-end">
@@ -85,6 +92,7 @@
 								whom="Special Education in the Sphere of Military Economics and Weapon Systems"
 								company="46 Central Scientific Research Institute of the 'Ministry of Defense of Russia', Moscow"
 								width={893}
+								borderColor="#48B3F2"
 							/>
 						</div>
 					</div>
@@ -94,6 +102,7 @@
 							whom="Bachelor's Degree in Innovation Technologies and Management"
 							company="Russian Technological University 'MIREA', Moscow"
 							width={1870}
+							borderColor="#48B3F2"
 						/>
 					</div>
 				</div>

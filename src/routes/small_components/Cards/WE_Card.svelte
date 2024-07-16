@@ -3,9 +3,13 @@
 	export let whom: string;
 	export let company: string;
 	export let width: number;
+	export let borderColor: string;
 </script>
 
-<div class="flex-col border-2 rounded-xl" style={`width: ${width}px`}>
+<div
+	class="flex-col"
+	style={`width: ${width}px; border: 2px solid ${borderColor}; border-radius: 1rem`}
+>
 	<button class="m-2 border-2 rounded-2xl px-2 py-1 text-white text-xs">More info</button>
 	<h1 class="flex items-center justify-center text-white font-[M600] text-base">{year}</h1>
 	<h1 class="flex items-center justify-center py-3 text-white font-[M400] text-2xl">
@@ -17,6 +21,4 @@
 </div>
 
 <style>
-	button:hover {
-	}
 </style>
