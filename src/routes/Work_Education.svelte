@@ -77,25 +77,23 @@
 							borderColor="#48B3F2"
 						/>
 					</div>
-					<div class="flex gap-5">
-						<div class="flex relative">
-							<WeCard
-								year="Sept. 2018 - June 2020"
-								whom="Specialist in the Field of Social Psychology"
-								company="PsychFac ''Moscow State University'' named M. V. Lomonosov, Moscow"
-								width={950}
-								borderColor="#48B3F2"
-							/>
-						</div>
-						<div class="flex relative items-end justify-end">
-							<WeCard
-								year="Sept. 2020 - Feb. 2022"
-								whom="Special Education in the Sphere of Military Economics and Weapon Systems"
-								company="46 Central Scientific Research Institute of the 'Ministry of Defense of Russia', Moscow"
-								width={893}
-								borderColor="#48B3F2"
-							/>
-						</div>
+					<div class="flex relative">
+						<WeCard
+							year="Sept. 2018 - June 2020"
+							whom="Specialist in the Field of Social Psychology"
+							company="PsychFac ''Moscow State University'' named M. V. Lomonosov, Moscow"
+							width={950}
+							borderColor="#48B3F2"
+						/>
+					</div>
+					<div class="flex relative items-end justify-end">
+						<WeCard
+							year="Sept. 2020 - Feb. 2022"
+							whom="Special Education in the Sphere of Military Economics and Weapon Systems"
+							company="46 Central Scientific Research Institute of the 'Ministry of Defense of Russia', Moscow"
+							width={893}
+							borderColor="#48B3F2"
+						/>
 					</div>
 					<div class="flex relative">
 						<WeCard

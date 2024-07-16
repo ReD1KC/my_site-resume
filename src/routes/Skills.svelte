@@ -1,11 +1,13 @@
-<script>
+<script lang="ts">
 	import FinanceColumn from './small_components/Skill_columns/Finance_column.svelte';
 	import ItColumn from './small_components/Skill_columns/It_column.svelte';
 	import ManagmentColumn from './small_components/Skill_columns/Managment_column.svelte';
 	import ItColumnSpace from './small_components/Skill_columns/Skill_spaces/Space.svelte';
 	import SoftColumn from './small_components/Skill_columns/Soft_column.svelte';
+	import Space from './small_components/Skill_columns/Skill_spaces/Space.svelte';
 
 	let selectedColumn = 'IT';
+	let group: string = '';
 </script>
 
 <div class="flex flex-col gap-y-24">
@@ -19,37 +21,130 @@
 			<div class="grid grid-cols-4 gap-16 p-8 ustify-between w-full">
 				<button
 					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => (selectedColumn = 'IT')}>IT</button
+					on:click={() => ((selectedColumn = 'IT'), (group = ''))}>IT</button
 				>
 				<button
 					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => (selectedColumn = 'Finance')}>Finance</button
+					on:click={() => ((selectedColumn = 'Finance'), (group = ''))}>Finance</button
 				>
 				<button
 					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => (selectedColumn = 'Managment')}>Managment</button
+					on:click={() => ((selectedColumn = 'Managment'), (group = ''))}>Managment</button
 				>
 				<button
 					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => (selectedColumn = 'Soft skills')}>Soft skills</button
+					on:click={() => ((selectedColumn = 'Soft skills'), (group = ''))}>Soft skills</button
 				>
 			</div>
 		</div>
 		<div class="flex w-full pt-10">
 			<div class="flex w-1/4 items-center justify-center pb-10">
 				{#if selectedColumn === 'IT'}
-					<ItColumn />
+					<ItColumn bind:group />
 				{:else if selectedColumn === 'Finance'}
-					<FinanceColumn />
+					<FinanceColumn bind:group />
 				{:else if selectedColumn === 'Managment'}
-					<ManagmentColumn />
+					<ManagmentColumn bind:group />
 				{:else}
-					<SoftColumn />
+					<SoftColumn bind:group />
 				{/if}
 			</div>
 			<div
-				class="flex w-3/4 border shadow-skillField rounded-2xl border-solid border-[#343232]"
-			></div>
+				class="flex flex-col w-3/4 border shadow-skillField rounded-2xl border-solid border-[#343232]"
+			>
+				{#if selectedColumn === 'IT'}
+					{#if group === 'HTML & CSS'}
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'C#'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Python'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Java Script'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Git / GitHub'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Database Interfaces'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'SQL / NoSQL'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Rust'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Server Tools'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Mobile Development'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+				{/if}
+				{#if selectedColumn === 'Managment'}
+					{#if group === 'Personnel Management'}
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Quality Management'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Business meetings and negotiations'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Project Management'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Innovative Managment'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+				{/if}
+				{#if selectedColumn === 'Finance'}
+					{#if group === 'Financial analytics'}
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Financial and trading instruments'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+				{/if}
+				{#if selectedColumn === 'SoftSkills'}
+					{#if group === 'Communication Skills'}
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Interpersonal Skills'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Leadership Skills'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Problem-Solving Skills'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+					{#if group === 'Organizational Skills'}
+						<Space name="Test" procent={50} />
+						<Space name="Test" procent={50} />
+					{/if}
+				{/if}
+			</div>
 		</div>
 	</div>
 </div>

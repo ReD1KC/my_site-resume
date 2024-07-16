@@ -20,7 +20,7 @@
 			<div class="flex flex-col">
 				<!-- <img src={me} alt="" class="" /> -->
 				<div class="flex items-center justify-center pt-10 text-white text-lg font-[M500]">
-					<h1>You can find me also on these platforms:</h1>
+					<h1>You can write me also on these platforms:</h1>
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,7 @@
 
 <div class="flex flex-col gap-y-24">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
-		<h1 class="flex text-white font-[RHD700] pt-28">Fullstack Developer</h1>
+		<h1 class="flex text-white font-[RHD700] pt-28">Full-stack Developer</h1>
 	</div>
 	<div class="flex w-full justify-between pt-16">
 		<div class="flex flex-col text-white w-1/2">

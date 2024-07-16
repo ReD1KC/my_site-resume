@@ -3,7 +3,7 @@
 	export let procent: number;
 </script>
 
-<div class="flex p-16 w-full justify-between">
+<div class="flex px-16 pt-5 w-full justify-between">
 	<div class="flex text-white text-2xl font-[RHD400]">{name}</div>
 	<div class="flex pt-4">
 		<div class="flex scale">

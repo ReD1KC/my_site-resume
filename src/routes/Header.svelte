@@ -16,13 +16,13 @@
 		</div>
 		<div class="flex flex-wrap pt-5 pl-16 gap-2">
 			<div class="flex gap-2">
-				<a class="flex" href="https://t.me/Sammu1L"><Fa icon={faTelegram} /></a>
-				<a class="flex" href="https://github.com/ReD1KC"><Fa icon={faGithub} /></a>
+				<a class="flex" href="https://t.me/Sammu1L"><Fa icon={faTelegram} size="lg" /></a>
+				<a class="flex" href="https://github.com/ReD1KC"><Fa icon={faGithub} size="lg" /></a>
 			</div>
 			<div class="flex gap-2">
-				<a class="flex" href="mailto:tchirkokwork@gmail.com"><Fa icon={faEnvelope} /></a>
+				<a class="flex" href="mailto:tchirkokwork@gmail.com"><Fa icon={faEnvelope} size="lg" /></a>
 				<a class="flex" href="https://www.linkedin.com/in/konstantin-chirkov-7554432b3/"
-					><Fa icon={faLinkedin} /></a
+					><Fa icon={faLinkedin} size="lg" /></a
 				>
 			</div>
 		</div>
