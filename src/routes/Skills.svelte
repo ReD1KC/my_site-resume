@@ -2,12 +2,44 @@
 	import FinanceColumn from './small_components/Skill_columns/Finance_column.svelte';
 	import ItColumn from './small_components/Skill_columns/It_column.svelte';
 	import ManagmentColumn from './small_components/Skill_columns/Managment_column.svelte';
-	import ItColumnSpace from './small_components/Skill_columns/Skill_spaces/Space.svelte';
 	import SoftColumn from './small_components/Skill_columns/Soft_column.svelte';
 	import Space from './small_components/Skill_columns/Skill_spaces/Space.svelte';
 
 	let selectedColumn = 'IT';
 	let group: string = '';
+
+	const groups = {
+		IT: [
+			{ name: 'HTML & CSS', procent: 50 },
+			{ name: 'C#', procent: 50 },
+			{ name: 'Python', procent: 50 },
+			{ name: 'Java Script', procent: 50 },
+			{ name: 'Git / GitHub', procent: 50 },
+			{ name: 'Database Interfaces', procent: 50 },
+			{ name: 'SQL / NoSQL', procent: 50 },
+			{ name: 'Rust', procent: 50 },
+			{ name: 'Server Tools', procent: 50 },
+			{ name: 'Mobile Development', procent: 50 }
+		],
+		Managment: [
+			{ name: 'Personnel Management', procent: 50 },
+			{ name: 'Quality Management', procent: 50 },
+			{ name: 'Business meetings and negotiations', procent: 50 },
+			{ name: 'Project Management', procent: 50 },
+			{ name: 'Innovative Managment', procent: 50 }
+		],
+		Finance: [
+			{ name: 'Financial analytics', procent: 50 },
+			{ name: 'Financial and trading instruments', procent: 50 }
+		],
+		SoftSkills: [
+			{ name: 'Communication Skills', procent: 50 },
+			{ name: 'Interpersonal Skills', procent: 50 },
+			{ name: 'Leadership Skills', procent: 50 },
+			{ name: 'Problem-Solving Skills', procent: 50 },
+			{ name: 'Organizational Skills', procent: 50 }
+		]
+	};
 </script>
 
 <div class="flex flex-col gap-y-24">
