@@ -7,7 +7,26 @@
 	import { fade } from 'svelte/transition';
 
 	let selectedColumn = 'IT';
-	let group: string = '';
+	let group = 'HTML & CSS';
+
+	let buttons = [
+		{ id: 1, label: 'IT', isPressed: false },
+		{ id: 2, label: 'Finance', isPressed: false },
+		{ id: 3, label: 'Managment', isPressed: false },
+		{ id: 4, label: 'Soft skills', isPressed: false }
+	];
+
+	function handleClick(button: any) {
+		buttons = buttons.map((b) => {
+			if (b.id === button.id) {
+				return { ...b, isPressed: true };
+			} else {
+				return { ...b, isPressed: false };
+			}
+		});
+		selectedColumn = button.label;
+		group = '';
+	}
 </script>
 
 <div class="flex flex-col gap-y-24">
@@ -18,23 +37,16 @@
 	</div>
 	<div class="flex flex-col shadow-blockShadow rounded-3xl">
 		<div class="flex justify-between w-full">
-			<div class="grid grid-cols-4 gap-16 p-8 ustify-between w-full">
-				<button
-					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => ((selectedColumn = 'IT'), (group = ''))}>IT</button
-				>
-				<button
-					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => ((selectedColumn = 'Finance'), (group = ''))}>Finance</button
-				>
-				<button
-					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => ((selectedColumn = 'Managment'), (group = ''))}>Managment</button
-				>
-				<button
-					class="flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
-					on:click={() => ((selectedColumn = 'Soft skills'), (group = ''))}>Soft skills</button
-				>
+			<div class="grid grid-cols-4 gap-16 p-8 justify-between w-full">
+				{#each buttons as button}
+					<button
+						class="button flex-1 font-[RHD400] text-3xl text-white py-5 px-16 shadow-bigButton rounded-3xl"
+						on:click={() => handleClick(button)}
+						class:pressed={button.isPressed}
+					>
+						{button.label}
+					</button>
+				{/each}
 			</div>
 		</div>
 		<div class="flex w-full pt-10">
@@ -186,7 +198,15 @@
 </div>
 
 <style>
-	button:active {
+	.button:active {
+		background-color: #222427;
+		box-shadow:
+			inset -9px -9px 48px rgba(101, 107, 117, 0.2),
+			inset 9px 9px 24px 8px rgba(1, 5, 11, 0.4);
+		border-radius: 24px;
+	}
+
+	.button.pressed {
 		background-color: #222427;
 		box-shadow:
 			inset -9px -9px 48px rgba(101, 107, 117, 0.2),

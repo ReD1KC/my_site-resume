@@ -1,30 +1,46 @@
 <script lang="ts">
 	export let group: string = '';
+
+	let buttons = [
+		{ label: 'Personnel Management', isPressed: false },
+		{ label: 'Quality Management', isPressed: false },
+		{ label: 'Business meetings and negotiations', isPressed: false },
+		{ label: 'Project Management', isPressed: false },
+		{ label: 'Innovative Management', isPressed: false }
+	];
+
+	function handleClick(button: any) {
+		buttons = buttons.map((b) => {
+			if (b.label === button.label) {
+				return { ...b, isPressed: true };
+			} else {
+				return { ...b, isPressed: false };
+			}
+		});
+		group = button.label;
+	}
 </script>
 
 <div class="flex flex-col items-center justify-center gap-y-10">
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Personnel Management')}>Personnel Management</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Quality Management')}>Quality Management</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Business meetings and negotiations')}
-		>Business meetings and negotiations</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Project Management')}>Project Management</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Innovative Managment')}>Innovative Managment</button
-	>
+	{#each buttons as button}
+		<button
+			class="button flex text-white font-[RHD800] text-lg shadow-bigButton rounded-3xl px-5 py-2 border-[1px] border-orange"
+			on:click={() => handleClick(button)}
+			class:pressed={button.isPressed}
+		>
+			{button.label}
+		</button>
+	{/each}
 </div>
 
 <style>
+	.button:active,
+	.button.pressed {
+		background-color: #222427;
+		box-shadow:
+			inset -9px -9px 48px rgba(101, 107, 117, 0.2),
+			inset 9px 9px 24px 8px rgba(1, 5, 11, 0.4);
+		border-radius: 24px;
+		color: orange;
+	}
 </style>

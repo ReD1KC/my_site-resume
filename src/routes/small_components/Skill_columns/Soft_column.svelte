@@ -1,29 +1,46 @@
 <script lang="ts">
 	export let group: string = '';
+
+	let buttons = [
+		{ label: 'Communication Skills', isPressed: false },
+		{ label: 'Interpersonal Skills', isPressed: false },
+		{ label: 'Leadership Skills', isPressed: false },
+		{ label: 'Problem-Solving Skills', isPressed: false },
+		{ label: 'Organizational Skills', isPressed: false }
+	];
+
+	function handleClick(button: any) {
+		buttons = buttons.map((b) => {
+			if (b.label === button.label) {
+				return { ...b, isPressed: true };
+			} else {
+				return { ...b, isPressed: false };
+			}
+		});
+		group = button.label;
+	}
 </script>
 
 <div class="flex flex-col items-center justify-center gap-y-10">
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Communication Skills')}>Communication Skills</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Interpersonal Skills')}>Interpersonal Skills</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Leadership Skills')}>Leadership Skills</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Problem-Solving Skills')}>Problem-Solving Skills</button
-	>
-	<button
-		class="flex text-white font-[RHD800] text-lg"
-		on:click={() => (group = 'Organizational Skills')}>Organizational Skills</button
-	>
+	{#each buttons as button}
+		<button
+			class="button flex text-white font-[RHD800] text-lg shadow-bigButton rounded-3xl px-5 py-2 border-[1px] border-orange"
+			on:click={() => handleClick(button)}
+			class:pressed={button.isPressed}
+		>
+			{button.label}
+		</button>
+	{/each}
 </div>
 
 <style>
+	.button:active,
+	.button.pressed {
+		background-color: #222427;
+		box-shadow:
+			inset -9px -9px 48px rgba(101, 107, 117, 0.2),
+			inset 9px 9px 24px 8px rgba(1, 5, 11, 0.4);
+		border-radius: 24px;
+		color: orange;
+	}
 </style>
