@@ -1,9 +1,10 @@
 <script lang="ts">
 	export let title: string;
 	export let skills: string[];
+	import { M } from 'svelte-motion';
 </script>
 
-<div class="flex-col mb-10 pl-4 rounded-3xl shadow-skillCard">
+<div class="flex-col mb-10 px-4 rounded-3xl shadow-skillCard">
 	<h1 class="flex text-white font-[RHD400] p-5 text-3xl">{title}</h1>
 	<ul class="flex-col list-disc pl-12">
 		{#each skills as skill, index}

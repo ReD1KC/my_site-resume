@@ -1,9 +1,13 @@
 <script>
-	import me from '../assets/images/me.png';
-	import gh from '../assets/images/GithubO.svg';
-	import wt from '../assets/images/whatsappO.svg';
-	import em from '../assets/images/emailO.svg';
-	import lk from '../assets/images/LinkedInO.svg';
+	import Fa from 'svelte-fa';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
+	import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+	import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+	import { faTelegram } from '@fortawesome/free-brands-svg-icons';
+	import { faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
+	import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
+	import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+	import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <div class="flex flex-col gap-y-24">
@@ -16,12 +20,27 @@
 	</div>
 	<div class="flex">
 		<div class="flex w-2/3 shadow-contactMe rounded-3xl bg-[#454141]"></div>
-		<div class="flex w-1/3">
-			<div class="flex flex-col">
-				<!-- <img src={me} alt="" class="" /> -->
-				<div class="flex items-center justify-center pt-10 text-white text-lg font-[M500]">
-					<h1>You can write me also on these platforms:</h1>
-				</div>
+		<div class="flex w-1/3 flex-col items-center justify-center">
+			<!-- <img src={me} alt="" class="" /> -->
+			<div class="flex pt-10 text-white text-lg font-[M500]">
+				<h1>You can write me also on these platforms:</h1>
+			</div>
+			<div class="flex gap-5 pt-5">
+				<a class="flex" href="https://t.me/Sammu1L"
+					><Fa icon={faTelegram} size="2x" color="#FA8E41" /></a
+				>
+				<a class="flex" href="https://www.facebook.com/profile.php?id=100080508770867"
+					><Fa icon={faFacebookSquare} size="2x" color="#FA8E41" /></a
+				>
+				<a class="flex" href="https://wa.me/+37258784686">
+					<Fa icon={faWhatsappSquare} size="2x" color="#FA8E41" /></a
+				>
+				<a class="flex" href="https://www.linkedin.com/in/konstantin-chirkov-7554432b3/"
+					><Fa icon={faLinkedin} size="2x" color="#FA8E41" /></a
+				>
+				<a class="flex" href="https://www.instagram.com/chir_kov.k/"
+					><Fa icon={faInstagramSquare} size="2x" color="#FA8E41" /></a
+				>
 			</div>
 		</div>
 	</div>

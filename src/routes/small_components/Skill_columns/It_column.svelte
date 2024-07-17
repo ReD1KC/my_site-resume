@@ -13,7 +13,7 @@
 	<button class="flex text-white font-[RHD800] text-lg" on:click={() => (group = 'Java Script')}
 		>Java Script</button
 	>
-	<button class="flex text-white font-[RHD800] text-lg" on:click={() => (group = 'IGit / GitHub')}
+	<button class="flex text-white font-[RHD800] text-lg" on:click={() => (group = 'Git / GitHub')}
 		>Git / GitHub
 	</button>
 	<button

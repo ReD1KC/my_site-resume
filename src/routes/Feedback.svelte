@@ -2,6 +2,7 @@
 	import Portfolio from './small_components/Feedback_components/Portfolio.svelte';
 	import Recomendations from './small_components/Feedback_components/Recomendations.svelte';
 	import Wps from './small_components/Feedback_components/WPS.svelte';
+	import { fade } from 'svelte/transition';
 
 	let selectedColumn = 'WPS';
 </script>
@@ -29,13 +30,13 @@
 				>
 			</div>
 		</div>
-		<div class="flex items-center justify-center pb-10">
+		<div class="flex pb-10">
 			{#if selectedColumn === 'WPS'}
-				<Wps />
+				<div in:fade={{ duration: 1500 }} class=""><Wps /></div>
 			{:else if selectedColumn === 'Recomend'}
-				<Recomendations />
+				<div in:fade={{ duration: 1500 }} class=""><Recomendations /></div>
 			{:else}
-				<Portfolio />
+				<div in:fade={{ duration: 1500 }} class=""><Portfolio /></div>
 			{/if}
 		</div>
 	</div>

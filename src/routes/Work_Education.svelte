@@ -1,6 +1,8 @@
 <script lang="ts">
 	import We_2018_2022 from './small_components/WE_Tabs/WE_2018-2022.svelte';
 	import We_2022_2026 from './small_components/WE_Tabs/WE_2022-2026.svelte';
+	import { fade } from 'svelte/transition';
+
 	let activeTab = 'tab1';
 </script>
 
@@ -16,17 +18,21 @@
 	</div>
 	<div class="flex flex-col overflow-x-auto">
 		<div class="tab-header">
-			<button class={activeTab === 'tab1' ? 'active' : ''} on:click={() => (activeTab = 'tab1')}
-				>2018 - 2022</button
-			>
-			<button class={activeTab === 'tab2' ? 'active' : ''} on:click={() => (activeTab = 'tab2')}
-				>2022 - 2026</button
-			>
+			<div in:fade={{ duration: 1500 }} class="">
+				<button class={activeTab === 'tab1' ? 'active' : ''} on:click={() => (activeTab = 'tab1')}
+					>2018 - 2022</button
+				>
+			</div>
+			<div in:fade={{ duration: 1500 }} class="">
+				<button class={activeTab === 'tab2' ? 'active' : ''} on:click={() => (activeTab = 'tab2')}
+					>2022 - 2026</button
+				>
+			</div>
 		</div>
 		{#if activeTab === 'tab1'}
-			<We_2018_2022 />
+			<div in:fade={{ duration: 1500 }} class=""><We_2018_2022 /></div>
 		{:else}
-			<We_2022_2026 />
+			<div in:fade={{ duration: 1500 }} class=""><We_2022_2026 /></div>
 		{/if}
 	</div>
 </div>

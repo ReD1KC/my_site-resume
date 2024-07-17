@@ -4,6 +4,7 @@
 	import Mainactivity from './Mainactivity.svelte';
 	import Me from './Me.svelte';
 	import Skills from './Skills.svelte';
+	import Test from './Test.svelte';
 	import WorkEducation from './Work_Education.svelte';
 </script>
 
@@ -14,4 +15,5 @@
 	<div id="Skills"><Skills /></div>
 	<div id="Feedback"><Feedback /></div>
 	<div id="ContactMe "><ContactMe /></div>
+	<div><Test /></div>
 </main>
