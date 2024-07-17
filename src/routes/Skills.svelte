@@ -6,8 +6,8 @@
 	import Space from './small_components/Skill_columns/Skill_spaces/Space.svelte';
 	import { fade } from 'svelte/transition';
 
-	let selectedColumn = 'IT';
-	let group = 'HTML & CSS';
+	let selectedColumn = '';
+	let group = '';
 
 	let buttons = [
 		{ id: 1, label: 'IT', isPressed: false },
@@ -212,5 +212,6 @@
 			inset -9px -9px 48px rgba(101, 107, 117, 0.2),
 			inset 9px 9px 24px 8px rgba(1, 5, 11, 0.4);
 		border-radius: 24px;
+		color: orange;
 	}
 </style>

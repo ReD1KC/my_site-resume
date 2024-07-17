@@ -19,26 +19,27 @@
 		>
 			Konstantin Chirkov
 		</div>
-		<div class="flex flex-col pt-4 pl-20 gap-2">
+		<div class="flex flex-col pt-1 pl-20 gap-2">
 			<div class="flex gap-2">
-				<a class="flex" href="https://github.com/ReD1KC"><Fa icon={faGithub} size="lg" /></a>
-				<a class="flex" href="https://stackoverflow.com/users/23368885/red1kc"
+				<a class="flex a" href="https://github.com/ReD1KC"><Fa icon={faGithub} size="lg" /></a>
+				<a class="flex a" href="https://stackoverflow.com/users/23368885/red1kc"
 					><Fa icon={faStackOverflow} size="lg" /></a
 				>
 			</div>
 			<div class="flex gap-2">
-				<a class="flex" href="https://t.me/Sammu1L"><Fa icon={faTelegram} size="lg" /></a>
-				<a class="flex" href="https://www.facebook.com/profile.php?id=100080508770867"
+				<a class="flex a" href="https://t.me/Sammu1L"><Fa icon={faTelegram} size="lg" /></a>
+				<a class="flex a" href="https://www.facebook.com/profile.php?id=100080508770867"
 					><Fa icon={faFacebookSquare} size="lg" /></a
 				>
-				<a class="flex" href="https://wa.me/+37258784686">
+				<a class="flex a" href="https://wa.me/+37258784686">
 					<Fa icon={faWhatsappSquare} size="lg" /></a
 				>
-				<a class="flex" href="mailto:tchirkokwork@gmail.com"><Fa icon={faEnvelope} size="lg" /></a>
-				<a class="flex" href="https://www.linkedin.com/in/konstantin-chirkov-7554432b3/"
+				<a class="flex a" href="mailto:tchirkokwork@gmail.com"><Fa icon={faEnvelope} size="lg" /></a
+				>
+				<a class="flex a" href="https://www.linkedin.com/in/konstantin-chirkov-7554432b3/"
 					><Fa icon={faLinkedin} size="lg" /></a
 				>
-				<a class="flex" href="https://www.instagram.com/chir_kov.k/"
+				<a class="flex a" href="https://www.instagram.com/chir_kov.k/"
 					><Fa icon={faInstagramSquare} size="lg" /></a
 				>
 			</div>
@@ -63,3 +64,19 @@
 		<div class="flex font-[RHD700] text-white uppercase"></div>
 	</div>
 </div>
+
+<style>
+	.a {
+		box-shadow:
+			rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+			rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+			rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+		padding: 5px;
+		border-radius: 10px;
+	}
+	a:hover {
+		box-shadow:
+			rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+			rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	}
+</style>
