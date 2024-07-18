@@ -17,7 +17,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col overflow-x-auto">
-		<div class="tab-header">
+		<div class="flex gap-5 pb-5">
 			<div in:fade={{ duration: 1500 }} class="">
 				<button class={activeTab === 'tab1' ? 'active' : ''} on:click={() => (activeTab = 'tab1')}
 					>2018 - 2022</button
@@ -38,31 +38,46 @@
 </div>
 
 <style>
-	.flex.flex-col.overflow-x-auto::-webkit-scrollbar {
-		height: 10px; /* adjust the height of the scrollbar */
-		background-color: orange; /* adjust the background color of the scrollbar */
-	}
-
-	.flex.flex-col.overflow-x-auto::-webkit-scrollbar-thumb {
-		background-color: white; /* adjust the color of the scrollbar thumb */
-		border-radius: 10px; /* adjust the border radius of the scrollbar thumb */
-	}
-
-	.flex.flex-col.overflow-x-auto::-webkit-scrollbar-track {
-		background-color: orange; /* adjust the background color of the scrollbar track */
-	}
-
-	.tab-header {
-		display: flex;
-	}
-	.tab-header button {
-		padding: 5px;
-		margin: 5px;
-		border-radius: 5px;
-		background-color: #f0f0f0;
+	button {
+		align-items: center;
+		appearance: none;
+		background-color: #ffa500;
+		border-radius: 4px;
+		border-width: 0;
+		box-shadow:
+			rgba(45, 35, 66, 0.4) 0 2px 4px,
+			rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+			#d6d6e7 0 -3px 0 inset;
+		box-sizing: border-box;
+		color: #36395a;
 		cursor: pointer;
+		display: inline-flex;
+		font-family: 'JetBrains Mono', monospace;
+		height: 48px;
+		justify-content: center;
+		line-height: 1;
+		list-style: none;
+		overflow: hidden;
+		padding-left: 16px;
+		padding-right: 16px;
+		position: relative;
+		text-align: left;
+		text-decoration: none;
+		transition:
+			box-shadow 0.15s,
+			transform 0.15s;
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+		white-space: nowrap;
+		will-change: box-shadow, transform;
+		font-size: 18px;
 	}
-	.tab-header button.active {
-		background-color: orange;
+
+	button:focus {
+	}
+
+	button:active {
+		transform: translateY(8px);
 	}
 </style>
