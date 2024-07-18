@@ -6,7 +6,7 @@
 	let activeTab = 'tab1';
 </script>
 
-<div class="flex flex-col gap-y-2 w-full">
+<div class="flex flex-col gap-y-24 w-full">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
 		<div class="flex flex-col items-center justify-center">
 			<h1 class="flex text-white font-[RHD600]">
@@ -41,7 +41,7 @@
 	button {
 		align-items: center;
 		appearance: none;
-		background-color: #ffa500;
+		background-color: #ccc;
 		border-radius: 4px;
 		border-width: 0;
 		box-shadow:
@@ -74,10 +74,11 @@
 		font-size: 18px;
 	}
 
-	button:focus {
-	}
-
 	button:active {
 		transform: translateY(8px);
+	}
+
+	.active {
+		background-color: #ffa500; /* add this to style the active button */
 	}
 </style>

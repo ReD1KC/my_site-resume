@@ -8,11 +8,10 @@
 	import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 	import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 	import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-	import { fade } from 'svelte/transition';
 	// Leetcode, Codewars, Zalo
 </script>
 
-<div class="flex bg-[#847979] w-full h-20 left-0 top-0 fixed justify-between z-10">
+<div class="flex bg-[#847979] w-full h-20 top-0 fixed justify-between z-10">
 	<div class="flex gap-5">
 		<div class="flex"></div>
 		<div

@@ -36,7 +36,7 @@
 			<div class="flex relative items-end justify-end">
 				<WeCard
 					year=" Nov. 2021 - Today"
-					whom="Founder and, part-time, financial director"
+					whom="Full-stack Developer"
 					company="themCodes OÜ, Tallinn"
 					width={500}
 					borderColor="#FA8E41"

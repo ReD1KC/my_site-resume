@@ -18,7 +18,7 @@
 	.scale {
 		width: 500px;
 		height: 10px;
-		background-color: black;
+		background-color: #847979;
 		border-radius: 10px;
 	}
 
