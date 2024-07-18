@@ -10,7 +10,7 @@
 	import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 </script>
 
-<div class="flex flex-col gap-y-24">
+<div class="flex flex-col gap-y-24 w-full">
 	<div class="flex items-center justify-center text-5xl leading-10 text-center text-white">
 		<div class="flex flex-col items-center justify-center">
 			<h1 class="flex text-white font-[RHD600]">

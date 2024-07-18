@@ -24,10 +24,10 @@
 	}
 </script>
 
-<div class="flex flex-col gap-y-24">
+<div class="flex flex-col gap-y-24 w-full">
 	<div class="flex items-center justify-center text-5xl leading-[64px] text-center text-white">
 		<div class="flex flex-col items-center justify-center">
-			<h1 class="flex text-white font-[RHD600]">Feedback</h1>
+			<h1 in:fade={{ duration: 1500 }} class="flex text-white font-[RHD600]">Feedback</h1>
 		</div>
 	</div>
 	<div class="flex flex-col shadow-blockShadow rounded-3xl">

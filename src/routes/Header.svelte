@@ -8,6 +8,7 @@
 	import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 	import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 	import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+	import { fade } from 'svelte/transition';
 	// Leetcode, Codewars, Zalo
 </script>
 
@@ -74,7 +75,7 @@
 		padding: 5px;
 		border-radius: 10px;
 	}
-	a:hover {
+	.a:hover {
 		box-shadow:
 			rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
 			rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;

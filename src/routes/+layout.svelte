@@ -3,6 +3,6 @@
 	import Header from './Header.svelte';
 </script>
 
-<header><Header /></header>
+<header class="flex"><Header /></header>
 <slot />
 <footer></footer>
