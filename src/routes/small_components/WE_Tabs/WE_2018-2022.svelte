@@ -8,7 +8,7 @@
 		<div class="flex flex-col gap-y-1 relative">
 			<div class="flex relative">
 				<WeCard
-					year="Apr. 2016 - Aug. 2019"
+					year="Apr. 2018 - Aug. 2019"
 					whom="Sales Manager"
 					company="VTB PJSC, Moscow"
 					width={700}

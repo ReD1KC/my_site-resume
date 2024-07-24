@@ -76,7 +76,10 @@
 	}
 	.a:hover {
 		box-shadow:
-			rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+			rgba(50, 50, 93, 0.:let arrayIndex = array.length
+			while (arrayIndex--) {
+			  
+			}25) 0px 30px 60px -12px inset,
 			rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 	}
 
@@ -86,7 +89,7 @@
 		background-image: none;
 		background-position: 0 90%;
 		background-repeat: repeat no-repeat;
-		background-size: 4px 3px;
+		background-size: 4px;
 		border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
 		border-style: solid;
 		border-width: 2px;

@@ -7,7 +7,7 @@
 	<div class="w-full">
 		<div class="flex relative">
 			<WeCard
-				year="Nov. 2021 - Today"
+				year="Nov. 2022 - Today"
 				whom="Full-stack Developer"
 				company="themCodes OÜ, Tallinn"
 				width={1000}
