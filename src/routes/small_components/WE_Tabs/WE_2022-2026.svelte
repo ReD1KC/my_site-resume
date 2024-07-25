@@ -8,7 +8,7 @@
 		<div class="flex relative">
 			<WeCard
 				year="Nov. 2022 - Today"
-				whom="Full-stack Developer"
+				whom="Software Engineer"
 				company="themCodes OÜ, Tallinn"
 				width={1000}
 				borderColor="#FA8E41"
