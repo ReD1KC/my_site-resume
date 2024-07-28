@@ -1,11 +1,11 @@
 <script>
-	import WeCard from '../Cards/WE_Card.svelte';
-	import Line2 from '/home/konstantin/_sd/IT_Projects/my_site-resume/src/assets/images/line2.svg';
+import WeCard from '../Cards/WE_Card.svelte';
+import Line2 from '/home/konstantin/_sd/IT_Projects/my_site-resume/src/assets/images/line2.svg';
 </script>
 
 <div class="flex flex-col gap-y-10">
 	<div class="w-full">
-		<div class="flex relative">
+		<div class="relative flex">
 			<WeCard
 				year="Nov. 2022 - Today"
 				whom="Software Engineer"
@@ -15,7 +15,7 @@
 			/>
 		</div>
 		<div class="flex">
-			<div class="flex pt-5 pb-12"><img src={Line2} alt="" /></div>
+			<div class="flex pb-12 pt-5"><img src={Line2} alt="" /></div>
 		</div>
 	</div>
 </div>

@@ -1,7 +1,7 @@
 <script></script>
 
-<div class="flex flex-col gap-y-5 w-full pl-6">
-	<div class="flex flex-col w-full p-10 text-white">Project name</div>
+<div class="flex w-full flex-col gap-y-5 pl-6">
+	<div class="flex w-full flex-col p-10 text-white">Project name</div>
 	<div class="flex p-10 text-white">Images</div>
 	<div class="flex p-10">
 		<div class="text-white">
