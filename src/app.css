@@ -31,3 +31,7 @@
 	font-family: 'RHD400';
 	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf');
 }
+
+html {
+	scroll-padding-top: 100px; /* Adjust the value according to your header height */
+}

@@ -7,7 +7,7 @@ import Line2 from '/home/konstantin/_sd/IT_Projects/my_site-resume/src/assets/im
 	<div class="w-full">
 		<div class="relative flex">
 			<WeCard
-				year="Nov. 2022 - Today"
+				year="Nov. 2021 - Today"
 				whom="Software Engineer"
 				company="themCodes OÜ, Tallinn"
 				width={1000}
