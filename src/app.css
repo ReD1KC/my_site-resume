@@ -32,6 +32,11 @@
 	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf');
 }
 
+@font-face {
+	font-family: 'RHDI';
+	src: url('./assets/fonts/RedHatDisplay/RedHatDisplay-Italic.ttf');
+}
+
 html {
 	scroll-padding-top: 100px; /* Adjust the value according to your header height */
 }

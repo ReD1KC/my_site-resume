@@ -78,31 +78,31 @@
 	<div class="flex items-center gap-8">
 		<div class="flex">
 			<a
-				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-300"
+				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-200"
 				href="#Me">Me</a
 			>
 		</div>
 		<div class="flex">
 			<a
-				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-300"
+				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-200"
 				href="#Mainactivity">Main Activity</a
 			>
 		</div>
 		<div class="flex">
 			<a
-				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-300"
+				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-200"
 				href="#WorkEducation">Road Map</a
 			>
 		</div>
 		<div class="flex">
 			<a
-				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-300"
+				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-200"
 				href="#Skills">Skills</a
 			>
 		</div>
 		<div class="flex">
 			<a
-				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-300"
+				class="font-[RHD700] uppercase text-white hover:text-[orange] transition-colors duration-200"
 				href="#Feedback">Feedback</a
 			>
 		</div>

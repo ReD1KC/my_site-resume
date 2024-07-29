@@ -1,24 +1,24 @@
 <script lang="ts">
-export let group: string = '';
+	export let group: string = '';
 
-let buttons = [
-	{ label: 'Personnel Management', isPressed: false },
-	{ label: 'Quality Management', isPressed: false },
-	{ label: 'Business meetings and negotiations', isPressed: false },
-	{ label: 'Project Management', isPressed: false },
-	{ label: 'Innovative Management', isPressed: false }
-];
+	let buttons = [
+		{ label: 'Personnel Management', isPressed: false },
+		{ label: 'Quality Management', isPressed: false },
+		{ label: 'Business meetings and negotiations', isPressed: false },
+		{ label: 'Project Management', isPressed: false },
+		{ label: 'Innovative Management', isPressed: false }
+	];
 
-function handleClick(button: any) {
-	buttons = buttons.map((b) => {
-		if (b.label === button.label) {
-			return { ...b, isPressed: true };
-		} else {
-			return { ...b, isPressed: false };
-		}
-	});
-	group = button.label;
-}
+	function handleClick(button: any) {
+		buttons = buttons.map((b) => {
+			if (b.label === button.label) {
+				return { ...b, isPressed: true };
+			} else {
+				return { ...b, isPressed: false };
+			}
+		});
+		group = button.label;
+	}
 </script>
 
 <div class="flex flex-col items-center justify-center gap-y-10">
@@ -34,13 +34,13 @@ function handleClick(button: any) {
 </div>
 
 <style>
-.button:active,
-.button.pressed {
-	background-color: #222427;
-	box-shadow:
-		inset -9px -9px 48px rgba(101, 107, 117, 0.2),
-		inset 9px 9px 24px 8px rgba(1, 5, 11, 0.4);
-	border-radius: 24px;
-	color: orange;
-}
+	.button:active,
+	.button.pressed {
+		background-color: #222427;
+		box-shadow:
+			inset -9px -9px 48px rgba(101, 107, 117, 0.2),
+			inset 9px 9px 24px 8px rgba(1, 5, 11, 0.4);
+		border-radius: 24px;
+		color: orange;
+	}
 </style>

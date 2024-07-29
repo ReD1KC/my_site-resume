@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 export let group: string = '';
 
 let buttons = [
@@ -40,4 +40,4 @@ function handleClick(button: any) {
 	border-radius: 24px;
 	color: orange;
 }
-</style>
+</style> -->
