@@ -52,7 +52,15 @@
 			{#if selectedColumn === 'Recommendations & Certificates'}
 				<div in:fade={{ duration: 1500 }} class=""><Recomendations /></div>
 			{:else if selectedColumn === 'Portfolio'}
-				<div in:fade={{ duration: 1500 }} class=""><Portfolio /></div>
+				<div in:fade={{ duration: 1500 }} class="">
+					<Portfolio
+						href="http://taqc.ru"
+						duties={[
+							'Writing all the code of the site',
+							'Connections of services for sending data to mail and to the database'
+						]}
+					/>
+				</div>
 			{/if}
 		</div>
 	</div>

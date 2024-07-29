@@ -1,20 +1,43 @@
-<script></script>
+<script lang="ts">
+	export let href: string;
+	export let duties: string[] = [];
+	export let technology: string[] = [];
+	export let images: string[] = [];
+</script>
 
 <div class="flex w-full flex-col gap-y-5 pl-6">
-	<div class="flex w-full flex-col p-10 text-white">Project name</div>
-	<div class="flex p-10 text-white">Images</div>
+	<div class="flex w-full flex-col p-10 text-white">
+		Project href: <a {href} class="text-xl text-blue" target="_blank" rel="noopener noreferrer"
+			>{href}</a
+		>
+	</div>
+	<div class="flex p-10">
+		{#if images.length > 0}
+			<div class="flex flex-wrap gap-4">
+				{#each images as image}
+					<img src={image} alt="Project image" class="w-32 h-32 object-cover" />
+				{/each}
+			</div>
+		{:else}
+			<div class="text-white">No images available</div>
+		{/if}
+	</div>
 	<div class="flex p-10">
 		<div class="text-white">
-			<ul>
+			<div class="pb-10">
 				<ul>
-					My duties
-					<li class="p-5">Hehe</li>
+					{#each duties as duty}
+						<li>{duty}</li>
+					{/each}
 				</ul>
+			</div>
+			<div class="pb-10">
 				<ul>
-					Technology used
-					<li class="p-5">Hehe</li>
+					{#each technology as tech}
+						<li>{tech}</li>
+					{/each}
 				</ul>
-			</ul>
+			</div>
 		</div>
 	</div>
 </div>
