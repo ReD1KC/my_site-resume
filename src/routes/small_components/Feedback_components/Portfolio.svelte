@@ -7,9 +7,9 @@
 
 <div class="flex w-full flex-col gap-y-5 pl-6">
 	<div class="flex w-full flex-col p-10 text-white">
-		Project href: <a {href} class="text-xl text-blue" target="_blank" rel="noopener noreferrer"
-			>{href}</a
-		>
+		Project href: <a {href} class="text-xl text-blue" target="_blank" rel="noopener noreferrer">
+			{href}
+		</a>
 	</div>
 	<div class="flex p-10">
 		{#if images.length > 0}
@@ -25,14 +25,16 @@
 	<div class="flex p-10">
 		<div class="text-white">
 			<div class="pb-10">
-				<ul>
+				<div class="pb-3">My duties:</div>
+				<ul class="pl-10 list-disc">
 					{#each duties as duty}
 						<li>{duty}</li>
 					{/each}
 				</ul>
 			</div>
 			<div class="pb-10">
-				<ul>
+				<div class="pb-3">Technologies used:</div>
+				<ul class="pl-5 list-disc">
 					{#each technology as tech}
 						<li>{tech}</li>
 					{/each}

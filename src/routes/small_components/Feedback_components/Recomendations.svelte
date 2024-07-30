@@ -12,8 +12,11 @@
 	<div class="flex flex-col pl-10">
 		<Certificate
 			text="Synopsis of scientific article dated 06.08.2021"
-			file="src/assets/files/Справк о статье.pdf"
+			file="src/assets/files/Synopsis of scientific article dated 06.08.2021.pdf"
 		/>
-		<Certificate text="Certificate of education" file="src/assets/files/Справка из МИРЭА.pdf" />
+		<Certificate
+			text="Certificate of education"
+			file="src/assets/files/Certificate of education.pdf"
+		/>
 	</div>
 </div>

@@ -14,7 +14,7 @@
 				title="Frontend-developer"
 				skills={[
 					'Mobile Application Development: Wrote a key part of a mobile application for a product using Expo and React Native. This resulted in a cross-platform application with high performance and a great user experience.',
-					'Website Development: Developed the companys main website in Next.js using React, Tailwind CSS and TypeScript. The project included both client and server side, ensuring high performance and SEO optimisation.',
+					'Website Development: Developed websites in Next.js using React, Tailwind CSS and TypeScript. The projects included both client and server side, ensuring high performance and SEO optimisation.',
 					'Svelte Components: Developed several components for the website using Svelte, achieving high performance and user interface interactivity.'
 				]}
 			/>
