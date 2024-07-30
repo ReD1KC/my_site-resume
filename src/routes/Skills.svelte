@@ -157,9 +157,6 @@
 							<div in:fade={{ duration: 1200 }} class="">
 								<Space name="Conflict Resolution" procent={75} />
 							</div>
-							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Performance Evaluation" procent={70} />
-							</div>
 						{/if}
 						{#if group === 'Quality Management'}
 							<div in:fade={{ duration: 1200 }} class="">
@@ -168,39 +165,30 @@
 							<div in:fade={{ duration: 1200 }} class="">
 								<Space name="Continuous Improvement" procent={75} />
 							</div>
-							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="ISO Standards" procent={70} />
-							</div>
 						{/if}
 						{#if group === 'Business meetings and negotiations'}
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Effective Communication" procent={80} />
+								<Space name="Effective Communication" procent={90} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
 								<Space name="Negotiation Tactics" procent={75} />
 							</div>
-							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Conflict Resolution" procent={70} />
-							</div>
 						{/if}
 						{#if group === 'Project Management'}
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Agile Methodology" procent={80} />
+								<Space name="Agile Methodology" procent={90} />
 							</div>
-							<div in:fade={{ duration: 1200 }} class=""><Space name="Scrum" procent={75} /></div>
-							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Waterfall Methodology" procent={70} />
-							</div>
+							<div in:fade={{ duration: 1200 }} class=""><Space name="Scrum" procent={90} /></div>
 						{/if}
 						{#if group === 'Innovative Management'}
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Change Management" procent={80} />
+								<Space name="Change Management" procent={100} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Creative Thinking" procent={75} />
+								<Space name="Creative Thinking" procent={90} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Innovation Strategies" procent={70} />
+								<Space name="Innovation Strategies" procent={90} />
 							</div>
 						{/if}
 					{/if}
@@ -233,20 +221,14 @@
 							<div in:fade={{ duration: 1200 }} class="">
 								<Space name="Active Listening" procent={80} />
 							</div>
-							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Public Speaking" procent={75} />
-							</div>
-							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Nonverbal Communication" procent={70} />
-							</div>
 						{/if}
 						{#if group === 'Interpersonal Skills'}
-							<div in:fade={{ duration: 1200 }} class=""><Space name="Empathy" procent={80} /></div>
+							<div in:fade={{ duration: 1200 }} class=""><Space name="Empathy" procent={90} /></div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Collaboration" procent={75} />
+								<Space name="Collaboration" procent={90} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Conflict Resolution" procent={70} />
+								<Space name="Conflict Resolution" procent={90} />
 							</div>
 						{/if}
 						{#if group === 'Leadership Skills'}
@@ -254,10 +236,10 @@
 								<Space name="Decision Making" procent={80} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Motivating Others" procent={75} />
+								<Space name="Motivating Others" procent={60} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Delegation" procent={70} />
+								<Space name="Delegation" procent={60} />
 							</div>
 						{/if}
 						{#if group === 'Problem-Solving Skills'}
@@ -273,13 +255,13 @@
 						{/if}
 						{#if group === 'Organizational Skills'}
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Time Management" procent={80} />
+								<Space name="Time Management" procent={90} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Prioritization" procent={75} />
+								<Space name="Prioritization" procent={65} />
 							</div>
 							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Attention to Detail" procent={70} />
+								<Space name="Attention to Detail" procent={60} />
 							</div>
 						{/if}
 					{/if}

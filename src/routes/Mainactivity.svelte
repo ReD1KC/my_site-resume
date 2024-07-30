@@ -1,5 +1,5 @@
 <script>
-import SkillCard from './small_components/Cards/SkillCard.svelte';
+	import SkillCard from './small_components/Cards/SkillCard.svelte';
 </script>
 
 <div class="flex w-full flex-col gap-y-24">
@@ -13,9 +13,9 @@ import SkillCard from './small_components/Cards/SkillCard.svelte';
 			<SkillCard
 				title="Frontend-developer"
 				skills={[
-					'Wrote part of the product mobile app on Expo (React Native).',
-					'Wrote the main website of product in Next.js (React / Tailwind CSS/TypeScript).',
-					'Developed several elements of the site in Svelte.'
+					'Mobile Application Development: Wrote a key part of a mobile application for a product using Expo and React Native. This resulted in a cross-platform application with high performance and a great user experience.',
+					'Website Development: Developed the companys main website in Next.js using React, Tailwind CSS and TypeScript. The project included both client and server side, ensuring high performance and SEO optimisation.',
+					'Svelte Components: Developed several components for the website using Svelte, achieving high performance and user interface interactivity.'
 				]}
 			/>
 			<SkillCard
@@ -30,10 +30,10 @@ import SkillCard from './small_components/Cards/SkillCard.svelte';
 			<SkillCard
 				title="Backend-developer"
 				skills={[
-					'Wrote a neural network for the backend of the application in Python.',
-					'Used C# to write internal application scripts and their interaction logic to improve application performance.',
-					'Deployed and maintained the application and its components on a Linux server (PM2).',
-					'Managed the back-end data system on GraphQl.'
+					'Neural Network: Wrote a neural network in Python for the backend of the application that processed and analysed data, ensuring high accuracy and processing speed.',
+					'C# scripts: Used C# to write the backend scripts for the application and develop the logic for their interaction, which greatly improved the overall performance and efficiency of the application.',
+					'Deployment and Support: Deployed and supported the application and its components on a Linux server using PM2. This ensured stable operation of the application and its components.',
+					'GraphQL: Managed the back-end data system using GraphQL to optimise queries and improve communication between the client and server parts of the application.'
 				]}
 			/>
 			<SkillCard
