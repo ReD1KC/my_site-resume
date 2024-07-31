@@ -4,7 +4,10 @@
 
 <div class="flex w-full">
 	<div class="flex flex-col pl-10">
-		<Certificate text="Recommendation from" />
+		<Certificate
+			text="Recommendation from the Chief Executive Officer of LLC VILDIS Technologies"
+			file="src/assets/files/Recomendation from LLC VILDIS Technologies.pdf"
+		/>
 		<Certificate text="Recommendation from" />
 		<Certificate text="Recommendation from" />
 		<Certificate text="My CV 2024" file="src/assets/files/Chirkov_Konstantin_CV.pdf" />
