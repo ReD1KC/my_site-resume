@@ -20,6 +20,6 @@
 	>
 	<Saos><div in:fade={{ duration: 1200 }} class="flex" id="Skills"><Skills /></div></Saos>
 	<Saos><div in:fade={{ duration: 1200 }} class="flex" id="Feedback"><Feedback /></div></Saos>
-	<!-- <Saos><div in:fade={{ duration: 1200 }} class="flex" id="ContactMe"><ContactMe /></div></Saos> -->
+	<Saos><div in:fade={{ duration: 1200 }} class="flex" id="ContactMe"><ContactMe /></div></Saos>
 	<div><Test /></div>
 </main>

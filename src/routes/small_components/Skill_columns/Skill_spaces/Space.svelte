@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex w-full justify-between px-16 py-6">
-	<div class="flex font-[RHDI] text-2xl text-white">{name}</div>
+	<div class="flex font-[RHD400] text-2xl text-white">{name}</div>
 	<div class="flex pt-4">
 		<div class="scale flex">
 			<div class="fill flex" style={`width: ${procent}%;`}></div>

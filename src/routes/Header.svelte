@@ -107,8 +107,10 @@
 			>
 		</div>
 
-		<div class="fle rounded-[30px]">
-			<button class="button-55 px-5 py-3 font-[RHD700] uppercase text-white">Contact Me</button>
+		<div class="flex rounded-[30px]">
+			<a class="button-55 px-5 py-3 font-[RHD700] uppercase text-white" href="#ContactMe"
+				>Contact Me</a
+			>
 		</div>
 		<div class="flex font-[RHD700] uppercase text-white"></div>
 	</div>
