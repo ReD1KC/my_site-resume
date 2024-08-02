@@ -71,7 +71,13 @@
 		<div class="flex w-2/3 flex-col rounded-3xl bg-[#454141] shadow-contactMe p-10">
 			<form class="flex flex-col gap-4" on:submit={handleSubmit}>
 				<label for="name" class="text-white">Name</label>
-				<input type="text" id="name" class="p-2 rounded-xl" placeholder="John" bind:value={name} />
+				<input
+					type="text"
+					id="name"
+					class="p-4 rounded-xl text-white"
+					placeholder="John"
+					bind:value={name}
+				/>
 				{#if errors.name}
 					<span class="text-red-500">{errors.name}</span>
 				{/if}
@@ -80,7 +86,7 @@
 				<input
 					type="text"
 					id="contact"
-					class="p-2 rounded-xl"
+					class="p-4 rounded-xl text-white"
 					placeholder="example@gmail.com"
 					bind:value={contact}
 				/>
@@ -91,7 +97,7 @@
 				<label for="message" class="text-white">Message</label>
 				<textarea
 					id="message"
-					class="p-2 rounded-xl"
+					class="p-4 rounded-xl text-white"
 					placeholder="Your Message"
 					bind:value={message}
 				></textarea>
@@ -99,7 +105,12 @@
 					<span class="text-red-500">{errors.message}</span>
 				{/if}
 
-				<button type="submit" class="mt-4 p-2 bg-orange-500 text-white rounded"> Send </button>
+				<button
+					type="submit"
+					class="mt-4 p-2 border-2 border-orange rounded-xl text-white shadow-bigButton w-32"
+				>
+					Send
+				</button>
 			</form>
 		</div>
 		<div class="flex w-1/3 flex-col items-center justify-center">

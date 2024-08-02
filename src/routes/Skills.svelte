@@ -154,9 +154,6 @@
 							<div in:fade={{ duration: 1200 }} class="">
 								<Space name="Team Building" procent={80} />
 							</div>
-							<div in:fade={{ duration: 1200 }} class="">
-								<Space name="Conflict Resolution" procent={75} />
-							</div>
 						{/if}
 						{#if group === 'Quality Management'}
 							<div in:fade={{ duration: 1200 }} class="">

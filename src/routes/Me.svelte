@@ -6,7 +6,7 @@
 
 <div class="flex w-full flex-col gap-y-24">
 	<div class="flex items-center justify-center text-center text-5xl leading-[64px] text-white">
-		<h1 class="flex pt-28 font-[RHD700] text-white">Software Engineer</h1>
+		<h1 class="flex pt-28 font-[RHD700] text-white">Frontend Developer</h1>
 	</div>
 	<div class="flex w-full justify-between pt-16">
 		<div class="flex w-1/2 flex-col text-white">
@@ -16,3 +16,4 @@
 		<!-- <div class="flex text-white h-[200px] pl-10"><img src={me} alt="" /></div> -->
 	</div>
 </div>
+нф
