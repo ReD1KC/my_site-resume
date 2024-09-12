@@ -5,10 +5,10 @@
 </script>
 
 <div class="tab mb-10 flex-col rounded-3xl px-4">
-	<h1 class="flex p-5 font-[RHD400] text-3xl text-white">{title}</h1>
+	<h1 class="flex p-5 font-[RHD400] text-3xl text-[orange]">{title}</h1>
 	<ul class="list-disc flex-col pl-12">
 		{#each skills as skill, index}
-			<li class="pb-4 font-[M500] text-xl text-white">{skill}</li>
+			<li class="pb-10 font-[M500] text-xl text-white">{skill}</li>
 		{/each}
 	</ul>
 	<!-- <div class="flex pb-6 pl-5">

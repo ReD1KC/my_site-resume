@@ -8,8 +8,10 @@
 			text="Recommendation from the Chief Executive Officer of LLC VILDIS Technologies"
 			file="src/assets/files/Recomendation from LLC VILDIS Technologies.pdf"
 		/>
-		<Certificate text="Recommendation from" />
-		<Certificate text="Recommendation from" />
+		<Certificate
+			text="Recomendation from the Chief Developer of LLC AiThink"
+			file="src/assets/files/Recomendation_AiThink.pdf"
+		/>
 		<Certificate text="My CV 2024" file="src/assets/files/Chirkov_Konstantin_CV.pdf" />
 	</div>
 	<div class="flex flex-col pl-10">

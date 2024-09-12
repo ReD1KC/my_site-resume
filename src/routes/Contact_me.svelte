@@ -28,7 +28,6 @@
 			errors.name = '';
 		}
 
-		// Validate contact
 		if (!contact) {
 			errors.contact = 'Contact is required';
 			valid = false;
@@ -39,7 +38,6 @@
 			errors.contact = '';
 		}
 
-		// Validate message
 		if (!message) {
 			errors.message = 'Message is required';
 			valid = false;
@@ -53,7 +51,6 @@
 	function handleSubmit(event) {
 		event.preventDefault();
 		if (validateForm()) {
-			// Handle form submission
 			console.log('Form submitted', { name, contact, message });
 		}
 	}
@@ -70,17 +67,17 @@
 	<div class="flex">
 		<div class="flex w-2/3 flex-col rounded-3xl bg-[#454141] shadow-contactMe p-10">
 			<form class="flex flex-col gap-4" on:submit={handleSubmit}>
-				<label for="name" class="text-white">Name</label>
-				<input type="text" id="name" class="p-2 rounded-xl" placeholder="John" bind:value={name} />
+				<label for="name" class="text-white pl-1 text-xl italic">Name</label>
+				<input type="text" id="name" class="p-4 rounded-xl" placeholder="John" bind:value={name} />
 				{#if errors.name}
 					<span class="text-red-500">{errors.name}</span>
 				{/if}
 
-				<label for="contact" class="text-white">Your email</label>
+				<label for="contact" class="text-white pl-1 text-xl italic">Your email</label>
 				<input
 					type="text"
 					id="contact"
-					class="p-2 rounded-xl"
+					class="p-4 rounded-xl"
 					placeholder="example@gmail.com"
 					bind:value={contact}
 				/>
@@ -88,10 +85,10 @@
 					<span class="text-red-500">{errors.contact}</span>
 				{/if}
 
-				<label for="message" class="text-white">Message</label>
+				<label for="message" class="text-white pl-1 text-xl italic">Message</label>
 				<textarea
 					id="message"
-					class="p-2 rounded-xl"
+					class="p-4 rounded-xl"
 					placeholder="Your Message"
 					bind:value={message}
 				></textarea>
@@ -99,7 +96,7 @@
 					<span class="text-red-500">{errors.message}</span>
 				{/if}
 
-				<button type="submit" class="mt-4 p-2 bg-orange-500 text-white rounded"> Send </button>
+				<button type="submit" class="font-[RHD700] button-55 mt-4 p-2 bg-orange-500 text-white rounded"> Send </button>
 			</form>
 		</div>
 		<div class="flex w-1/3 flex-col items-center justify-center">
@@ -134,5 +131,58 @@
 		background: radial-gradient(50% 50% at 50% 50%, #423b3b 2.5%, #393535 100%);
 		border: 1px solid #343232;
 		border-radius: 16px;
+	}
+
+	.a {
+		box-shadow:
+			rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+			rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+			rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+		padding: 5px;
+		border-radius: 10px;
+	}
+	.a:hover {
+		box-shadow:
+			rgba(50, 50, 93, 0) 0px 30px 60px -12px inset,
+			rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	}
+
+	.button-55 {
+		align-self: center;
+		background-color: #fff;
+		background-image: none;
+		background-position: 0 90%;
+		background-repeat: repeat no-repeat;
+		background-size: 4px;
+		border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+		border-style: solid;
+		border-width: 2px;
+		box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+		box-sizing: border-box;
+		color: #41403e;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 1rem;
+		line-height: 23px;
+		outline: none;
+		padding: 0.75rem;
+		text-decoration: none;
+		transition: all 235ms ease-in-out;
+		border-bottom-left-radius: 15px 255px;
+		border-bottom-right-radius: 225px 15px;
+		border-top-left-radius: 255px 15px;
+		border-top-right-radius: 15px 225px;
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+	}
+
+	.button-55:hover {
+		box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+		transform: translate3d(0, 2px, 0);
+	}
+
+	.button-55:focus {
+		box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
 	}
 </style>

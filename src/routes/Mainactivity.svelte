@@ -13,37 +13,26 @@
 			<SkillCard
 				title="Frontend-developer"
 				skills={[
-					'Mobile Application Development: Wrote a key part of a mobile application for a product using Expo and React Native. This resulted in a cross-platform application with high performance and a great user experience.',
-					'Website Development: Developed websites in Next.js using React, Tailwind CSS and TypeScript. The projects included both client and server side, ensuring high performance and SEO optimisation.',
-					'Svelte Components: Developed several components for the website using Svelte, achieving high performance and user interface interactivity.'
-				]}
-			/>
-			<SkillCard
-				title="System Administration"
-				skills={[
-					'Created a network infrastructure administration system. Managed network devices (routers, switches, access points), monitoring and optimizing network traffic.',
-					'Monitored and maintained IT infrastructures. Continuous monitoring of server and network status, responding to failures and problems, minimizing downtime.'
+					'Wrote mobile applications using Expo/React Native. This allowed for a cross-platform application with high performance and user interface.',
+					'Developed websites in Next.js using React, Tailwind CSS and TypeScript. The projects included both client and server side, ensuring high performance and SEO optimisation.',
+					'Deployed and maintained applications and their components on a Linux servers.',
+					'Managed the back-end data system using Supabase to optimise queries and improve communication between the client and server side of the applications.',
+					'Participated in the development and further enhancement of the applications architecture, ensuring its scalability and reliability.',
+					'Worked with SCRUM system using tools such as Jira, ClickUp and Trello for project management, facilitating effective teamwork.',
 				]}
 			/>
 		</div>
 		<div class="flex w-1/2 flex-col">
 			<SkillCard
-				title="Backend-developer"
-				skills={[
-					'Neural Network: Wrote a neural network in Python for the backend of the application that processed and analysed data, ensuring high accuracy and processing speed.',
-					'C# scripts: Used C# to write the backend scripts for the application and develop the logic for their interaction, which greatly improved the overall performance and efficiency of the application.',
-					'Deployment and Support: Deployed and supported the application and its components on a Linux server using PM2. This ensured stable operation of the application and its components.',
-					'GraphQL: Managed the back-end data system using GraphQL to optimise queries and improve communication between the client and server parts of the application.'
-				]}
-			/>
-			<SkillCard
-				title="Managment"
-				skills={[
-					'Assembled and managed a small team of analysts. I also set tasks, mentored and developed the professional skills of my team. Improved the companys financial performance and reporting system.',
-					'Liaised with external and internal auditors. Supported the audit process, providing necessary information and documents. Worked on the elimination of identified observations.',
-					'Trained and raised awareness of employees. Developed and developed information security training for employees, raised their awareness of modern threats and methods of protection in the company.'
-				]}
-			/>
+			title="System Administrator"
+			skills={[
+				'Maintained the company website, performed preventive maintenance.',
+				'Monitored and maintained IT infrastructure. Constant monitoring of server and network status, responding to failures and problems, minimising downtime.',
+				'Created a network infrastructure administration system. Managed network devices (routers, switches, access points), controlled and optimised network traffic.',
+				'Maintained liaison with external and internal auditors. Supported the audit process by providing necessary information and documents. Worked to resolve identified observations.',
+				'Provided training and awareness to employees. Designed and developed information security training for employees, raised their awareness of current threats and methods of protection in the company and developed instruction on software and office equipment.',
+			]}
+		/>
 		</div>
 	</div>
 </div>

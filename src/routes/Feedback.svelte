@@ -61,6 +61,14 @@
 						]}
 						technology={['Next.js', 'TypeScript', 'TailwindCSS']}
 					/>
+					<Portfolio
+					href="http://taqc.ru"
+					duties={[
+						'Writing all the code of the site',
+						'Connections of services for sending data to mail and to the database'
+					]}
+					technology={['Next.js', 'TypeScript', 'TailwindCSS']}
+				/>
 				</div>
 			{/if}
 		</div>

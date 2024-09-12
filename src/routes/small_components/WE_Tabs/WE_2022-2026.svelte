@@ -1,6 +1,6 @@
 <script>
 import WeCard from '../Cards/WE_Card.svelte';
-import Line2 from '/home/konstantin/_sd/IT_Projects/my_site-resume/src/assets/images/line2.svg';
+import Line2 from '/home/konstantin/_sd/IT_Projects/work_IT/my_site-resume/src/assets/images/line2.svg';
 </script>
 
 <div class="flex flex-col gap-y-10">
